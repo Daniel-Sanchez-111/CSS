@@ -1,6 +1,7 @@
 .div1{
 
     border-color: rgba(5, 5, 5, 0.789);
+    color: hsl(192, 100%, 80%);
     border-width: 10px;
     border-style: solid;
     border-radius: 500px 1000px;
