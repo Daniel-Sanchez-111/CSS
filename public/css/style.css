@@ -1,0 +1,13 @@
+.div1{
+    background-color: aquamarine;
+    display: inline-block;
+}
+
+.div2{
+    font-size: 50px;
+    margin-right: 10px;
+}
+
+.div3{
+    margin-left: 10px;
+}
