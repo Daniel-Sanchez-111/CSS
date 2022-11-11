@@ -23,18 +23,20 @@ html, body{
     border-style: solid;
     box-sizing: border-box;
     transition: all 2s ease-in-out;
-
 }
 
 .div1:hover{
     background-color: aqua;
     border-radius: 100%;
+    width: 200px;
+    height: 200px;
+    
 }
 
 .div2{
     font-size: 50px;
     margin-right: 10px;
-    display: inline-block;
+    display: table-row;
 }
 
 .div3{
@@ -42,21 +44,15 @@ html, body{
     margin-left: 10px;
 }
 
-a{
-    text-decoration: none;
+.table{
+    display: table;
+    width: 100%;
 }
 
-a:active{
-    color: chartreuse;
+.row{
+    display: table-row;
 }
 
-
-
-a:visited{
-    color: red;
-}
-
-p::selection{
-    background-color: black;
-    color: white;
+.cell{
+    display: table-cell;
 }
