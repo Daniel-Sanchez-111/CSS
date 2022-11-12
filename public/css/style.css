@@ -3,31 +3,78 @@ html, body{
 
     width: 100%;
     height: 100%;
-    /*background-image: url("../images/background.jpg");*/
-    /* background-image: linear-gradient(20deg, red, blue,yellow); */
-    /* background-image: radial-gradient(circle at 0 0, red, blue); */
+    margin: 0px;
+    /* background-image: url("../images/background.jpg");
+    background-image: linear-gradient(20deg, red, blue,yellow); 
+    background-image: radial-gradient(circle at 0 0, red, blue); 
     background-repeat: no-repeat;  
     background-size: cover;
-    /*background-color: var(--color_fondo);*/
-    background-blend-mode: multiply;
+    background-color: var(--color_fondo);
+    background-blend-mode: multiply; */
 
 
 }
 
 .div1{
-    width: 300px;
-    height: 300px;
-    border-color: rgba(5, 5, 5, 0.789);
-    background-color: red;
+    width: 100vm;
+   /*  border-color: rgba(5, 5, 5, 0.789);
+    background-color: red; */
     border-width: 10px;
     border-style: solid;
     margin: 0 auto;
-    display: block;
     transition: all 2s ease-in-out;
 }
 
-.div1:hover{
-/*     background-color: aqua;
+.div1 h1,p{
+    margin: 0;
+}
+
+.titulo{
+    text-align: center;
+}
+
+.parrafo{
+    text-align: center;
+} 
+
+@media(max-width:400px){
+    .titulo{
+        text-align: left;
+        color: red;
+    }
+    
+    .parrafo{
+        text-align: left;
+        color: gray;
+    } 
+}
+
+@media (min-width:401px) and (max-width:899px){
+    .titulo{
+        text-align:justify;
+        color: green;
+    }
+    
+    .parrafo{
+        text-align: justify;
+        color: mediumblue;
+    } 
+}
+
+@media(min-width:900px){
+    .titulo{
+        text-align: right;
+        color: blue;
+    }
+    
+    .parrafo{
+        text-align: right;
+        color: magenta;
+    } 
+}
+
+/* .div1:hover{
+    background-color: aqua;
     border-radius: 100%;
     width: 200px;
     height: 200px; 
@@ -37,13 +84,13 @@ html, body{
     transform: rotateY(180deg); 
 
      transform: translate3d(100px,200px,200px); 
-    transform: skew(120deg,50deg); */
+    transform: skew(120deg,50deg); 
 
     transform: scale(1.5) skew(20deg,50deg) translate(60px);
 
-}
+} 
 
-.div2{
+ .div2{
     font-size: 50px;
     margin-right: 10px;
     display: table-row;
@@ -66,3 +113,4 @@ html, body{
 .cell{
     display: table-cell;
 }
+*/
