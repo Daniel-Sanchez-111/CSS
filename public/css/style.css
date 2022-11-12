@@ -21,16 +21,26 @@ html, body{
     background-color: red;
     border-width: 10px;
     border-style: solid;
-    box-sizing: border-box;
+    margin: 0 auto;
+    display: block;
     transition: all 2s ease-in-out;
 }
 
 .div1:hover{
-    background-color: aqua;
+/*     background-color: aqua;
     border-radius: 100%;
     width: 200px;
-    height: 200px;
-    
+    height: 200px; 
+
+
+     transform: rotateX(90deg);
+    transform: rotateY(180deg); 
+
+     transform: translate3d(100px,200px,200px); 
+    transform: skew(120deg,50deg); */
+
+    transform: scale(1.5) skew(20deg,50deg) translate(60px);
+
 }
 
 .div2{
