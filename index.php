@@ -21,27 +21,53 @@
 </head>
 
 <body>
-
-    <div class="d-flex justify-content-around align-items-center h-100">
-
-        <article class="mb-3 shadow-lg flex-item bg-primary">
-            <img src="public/images/amogus.jpg" alt="" class="img-fluid">
-        </article>
-
-        <article class="mb-3 shadow-lg flex-item">
-            <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui, sequi.</p>
-            <figure class="figure">
-                <img src="public/images/amogus.jpg" alt="" class="img-fluid img-thumbnail figure-img">
-                <figcaption class="figure-caption">
-                    <cite>
-                        Nombre del autor
-                    </cite>
-                </figcaption>
-            </figure>
-
-        </article>
-
+    <div class="table-responsive">
+        <table class="table table-sm table-bordered table-hover">
+            <caption>Descripcion de la tabla</caption>
+            <thead class="table-dark">
+                <tr>
+                    <th>Encabezado 1</th>
+                    <th>Encabezado 2</th>
+                    <th>Encabezado 3</th>
+                    <th>Encabezado 4</th>
+                    <th>Encabezado 5</th>
+                </tr>
+            </thead>
+            <tbody class="table-primary">
+                <tr>
+                    <td>Contenido 1</td>
+                    <td>Contenido 2</td>
+                    <td>Contenido 3</td>
+                    <td>Contenido 4</td>
+                    <td>Contenido 5</td>
+                </tr>
+                <tr>
+                    <td>Contenido 1</td>
+                    <td>Contenido 2</td>
+                    <td>Contenido 3</td>
+                    <td>Contenido 4</td>
+                    <td>Contenido 5</td>
+                </tr>
+                <tr>
+                    <td>Contenido 1</td>
+                    <td>Contenido 2</td>
+                    <td>Contenido 3</td>
+                    <td>Contenido 4</td>
+                    <td>Contenido 5</td>
+                </tr>
+            </tbody>
+            <tfoot class="table-secondary">
+                <tr>
+                    <td>Footer 1</td>
+                    <td>Footer 2</td>
+                    <td>Footer 3</td>
+                    <td>Footer 4</td>
+                    <td>Footer 5</td>
+                </tr>
+            </tfoot>
+        </table>
     </div>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis quo ipsam ullam. Ullam, doloremque molestiae soluta libero non aliquam assumenda placeat voluptatum obcaecati accusamus? Perspiciatis enim quos minus provident fugiat.</p>
 
 
 
