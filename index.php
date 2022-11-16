@@ -34,47 +34,27 @@
                 <li class="list-group-item d-flex justify-content-between"> Titulo <span class="badge rounded-pill bg-dark">10</span></li>
                 <li class="list-group-item d-flex justify-content-between"> Titulo <span class="badge rounded-pill bg-dark">10</span></li>
             </ul>
+
             <h1 class="text-center">Flexbox</h1>
-            <ul class="list-group list-group-flush">
-                <a class="list-group-item list-group-item-action">
-                    <div class="d-flex justify-content-between">
-                        <strong>Nombre</strong>
-                        <span class="text-muted">Fecha</span>
-                    </div>
-                    <span>Lorem ipsum dolor sit amet.</span>
-                    <br>
-                    <span class="text-muted">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sequi rerum hic facere! Nihil, ea fugit! Alias officia amet suscipit quo.</span>
+
+            <div class="list-group list-group-flush" id="grupolista" role="tablist">
+                <a data-bs-toggle="list" role="tab" aria-controls="elemento1" id="elemento1" class="list-group-item list-group-item-action">
+
                 </a>
-                <a class="list-group-item list-group-item-action">
-                    <div class="d-flex justify-content-between">
-                        <strong>Nombre</strong>
-                        <span class="text-muted">Fecha</span>
-                    </div>
-                    <span>Lorem ipsum dolor sit amet.</span>
-                    <br>
-                    <span class="text-muted">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sequi rerum hic facere! Nihil, ea fugit! Alias officia amet suscipit quo.</span>
+                <a data-bs-toggle="list" role="tab" aria-controls="elemento2" id="elemento2" class="list-group-item list-group-item-action">
+
                 </a>
-                <a class="list-group-item list-group-item-action">
-                    <div class="d-flex justify-content-between">
-                        <strong>Nombre</strong>
-                        <span class="text-muted">Fecha</span>
-                    </div>
-                    <span>Lorem ipsum dolor sit amet.</span>
-                    <br>
-                    <span class="text-muted">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sequi rerum hic facere! Nihil, ea fugit! Alias officia amet suscipit quo.</span>
-                </a>
-                <a class="list-group-item list-group-item-action">
-                    <div class="d-flex justify-content-between">
-                        <strong>Nombre</strong>
-                        <span class="text-muted">Fecha</span>
-                    </div>
-                    <span>Lorem ipsum dolor sit amet.</span>
-                    <br>
-                    <span class="text-muted">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sequi rerum hic facere! Nihil, ea fugit! Alias officia amet suscipit quo.</span>
+                <a data-bs-toggle="list" role="tab" aria-controls="elemento3" id="elemento3" class="list-group-item list-group-item-action">
+
                 </a>
 
-            </ul>
+            </div>
 
+            <div class="tab-panel" id="contenidoLista">
+                <div class="tab-pane fade" role="tabpanel" id="contenido1" aria-labelledby="elemento1"></div>
+                <div class="tab-pane fade" role="tabpanel" id="contenido2" aria-labelledby="elemento2"></div>
+                <div class="tab-pane fade" role="tabpanel" id="contenido3" aria-labelledby="elemento3"></div>
+            </div>
         </div>
     </div>
     <?php include_once('layout/scripts.template.php'); ?>
