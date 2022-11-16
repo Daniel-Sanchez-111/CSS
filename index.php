@@ -21,31 +21,20 @@
 </head>
 
 <body>
-    <!-- BOTONES -->
+    <!-- BADGES -->
     <div class="container">
-        <div class="btn-group btn-group-vertical">
-            <a href="" class="btn btn-primary btn-lg">Boton</a>
-            <a href="" class="btn btn-secondary btn-lg">Boton</a>
-            <a href="" class="btn btn-dark btn-lg">Boton</a>
+        <div class="row row-cols-1">
+            <h1 class="text-center">
+                Badges
+            </h1>
+            <h2>Relleno</h2>
+            <p>Texto <span class="badge rounded-pill bg-success">Secondary</span></p>
+
         </div>
-
-        <div class="btn-group btn-group-toggle" role="group" data-bs-toggle="buttons">
-            <input type="radio" class="btn-check" name="btnradio" id="btnradio1" autocomplete="off" checked>
-            <label class="btn btn-outline-primary" for="btnradio1">Radio 1</label>
-
-            <input type="radio" class="btn-check" name="btnradio" id="btnradio2" autocomplete="off">
-            <label class="btn btn-outline-primary" for="btnradio2">Radio 2</label>
-
-            <input type="radio" class="btn-check" name="btnradio" id="btnradio3" autocomplete="off">
-            <label class="btn btn-outline-primary" for="btnradio3">Radio 3</label>
-        </div>
-        <!-- <div class="d-grid gap-2">
-            <input type="submit" class="btn btn-success">
-        </div> -->
-
+        <button class="col col-auto btn btn-primary rounded-pill">
+            Notificaciones <span class="badge  bg-light text-dark">4</span>
+        </button>
     </div>
-
-
     <?php include_once('layout/scripts.template.php'); ?>
 
 </body>
