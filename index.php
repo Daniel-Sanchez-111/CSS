@@ -24,43 +24,58 @@
     <!-- Carousel -->
     <div class="container">
         <div class="row row-cols-1">
-            <h1 class="text-center">Carousel</h1>
-            <div class="carousel slide carousel-fade" id="carousel" data-bs-ride="false">
-                
-                <div class="carousel-indicators">
-                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
-                </div>
+            <h1 class="text-center">List Group</h1>
 
-                <div class="carousel-inner">
-                    <div class="carousel-item active">
-                        <img src="./public/img/scooter-01.jpg" alt="" class="d-block w-100">
-                        <div class="carousel-caption d-none d-md-block">
-                            <h2>Texto</h2>
-                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptate, eum.</p>
-                        </div>
+            <ul class="list-group list-group-flush">
+                <li class="list-group-item d-flex justify-content-between"> Titulo <span class="badge rounded-pill bg-dark">10</span></li>
+                <li class="list-group-item d-flex justify-content-between"> Titulo <span class="badge rounded-pill bg-dark">10</span></li>
+                <li class="list-group-item d-flex justify-content-between"> Titulo <span class="badge rounded-pill bg-dark">10</span></li>
+                <li class="list-group-item d-flex justify-content-between"> Titulo <span class="badge rounded-pill bg-dark">10</span></li>
+                <li class="list-group-item d-flex justify-content-between"> Titulo <span class="badge rounded-pill bg-dark">10</span></li>
+                <li class="list-group-item d-flex justify-content-between"> Titulo <span class="badge rounded-pill bg-dark">10</span></li>
+            </ul>
+            <h1 class="text-center">Flexbox</h1>
+            <ul class="list-group list-group-flush">
+                <a class="list-group-item list-group-item-action">
+                    <div class="d-flex justify-content-between">
+                        <strong>Nombre</strong>
+                        <span class="text-muted">Fecha</span>
                     </div>
-                    <div class="carousel-item">
-                        <img src="./public/img/scooter-02.jpg" alt="" class="d-block w-100">
+                    <span>Lorem ipsum dolor sit amet.</span>
+                    <br>
+                    <span class="text-muted">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sequi rerum hic facere! Nihil, ea fugit! Alias officia amet suscipit quo.</span>
+                </a>
+                <a class="list-group-item list-group-item-action">
+                    <div class="d-flex justify-content-between">
+                        <strong>Nombre</strong>
+                        <span class="text-muted">Fecha</span>
                     </div>
-                    <div class="carousel-item">
-                        <img src="./public/img/scooter-03.jpg" alt="" class="d-block w-100">
+                    <span>Lorem ipsum dolor sit amet.</span>
+                    <br>
+                    <span class="text-muted">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sequi rerum hic facere! Nihil, ea fugit! Alias officia amet suscipit quo.</span>
+                </a>
+                <a class="list-group-item list-group-item-action">
+                    <div class="d-flex justify-content-between">
+                        <strong>Nombre</strong>
+                        <span class="text-muted">Fecha</span>
                     </div>
-                </div>
+                    <span>Lorem ipsum dolor sit amet.</span>
+                    <br>
+                    <span class="text-muted">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sequi rerum hic facere! Nihil, ea fugit! Alias officia amet suscipit quo.</span>
+                </a>
+                <a class="list-group-item list-group-item-action">
+                    <div class="d-flex justify-content-between">
+                        <strong>Nombre</strong>
+                        <span class="text-muted">Fecha</span>
+                    </div>
+                    <span>Lorem ipsum dolor sit amet.</span>
+                    <br>
+                    <span class="text-muted">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sequi rerum hic facere! Nihil, ea fugit! Alias officia amet suscipit quo.</span>
+                </a>
 
-                <button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
-                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Previous</span>
-                </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#carousel" data-bs-slide="next">
-                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Next</span>
-                </button>
-            </div>
+            </ul>
 
         </div>
-    </div>
     </div>
     <?php include_once('layout/scripts.template.php'); ?>
 
