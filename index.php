@@ -23,13 +23,25 @@
 <body>
     <!-- BOTONES -->
     <div class="container">
-        <a href="" class="btn btn-primary btn-lg active" aria-pressed="true">Boton de enlace grande</a>
-        <button class="btn btn-dark btn-sm" data-bs-toggle="button" aria-pressed="false">Boton con borde pequeño</button>
-        <a href="" class="btn btn-primary disabled" aria-disabled="true">Boton de enlace desactivado</a>
-        
-        <div class="d-grid gap-2">
-            <input type="submit" class="btn btn-success">
+        <div class="btn-group btn-group-vertical">
+            <a href="" class="btn btn-primary btn-lg">Boton</a>
+            <a href="" class="btn btn-secondary btn-lg">Boton</a>
+            <a href="" class="btn btn-dark btn-lg">Boton</a>
         </div>
+
+        <div class="btn-group btn-group-toggle" role="group" data-bs-toggle="buttons">
+            <input type="radio" class="btn-check" name="btnradio" id="btnradio1" autocomplete="off" checked>
+            <label class="btn btn-outline-primary" for="btnradio1">Radio 1</label>
+
+            <input type="radio" class="btn-check" name="btnradio" id="btnradio2" autocomplete="off">
+            <label class="btn btn-outline-primary" for="btnradio2">Radio 2</label>
+
+            <input type="radio" class="btn-check" name="btnradio" id="btnradio3" autocomplete="off">
+            <label class="btn btn-outline-primary" for="btnradio3">Radio 3</label>
+        </div>
+        <!-- <div class="d-grid gap-2">
+            <input type="submit" class="btn btn-success">
+        </div> -->
 
     </div>
 
