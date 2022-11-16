@@ -21,54 +21,14 @@
 </head>
 
 <body>
-    <div class="table-responsive">
-        <table class="table table-sm table-bordered table-hover">
-            <caption>Descripcion de la tabla</caption>
-            <thead class="table-dark">
-                <tr>
-                    <th>Encabezado 1</th>
-                    <th>Encabezado 2</th>
-                    <th>Encabezado 3</th>
-                    <th>Encabezado 4</th>
-                    <th>Encabezado 5</th>
-                </tr>
-            </thead>
-            <tbody class="table-primary">
-                <tr>
-                    <td>Contenido 1</td>
-                    <td>Contenido 2</td>
-                    <td>Contenido 3</td>
-                    <td>Contenido 4</td>
-                    <td>Contenido 5</td>
-                </tr>
-                <tr>
-                    <td>Contenido 1</td>
-                    <td>Contenido 2</td>
-                    <td>Contenido 3</td>
-                    <td>Contenido 4</td>
-                    <td>Contenido 5</td>
-                </tr>
-                <tr>
-                    <td>Contenido 1</td>
-                    <td>Contenido 2</td>
-                    <td>Contenido 3</td>
-                    <td>Contenido 4</td>
-                    <td>Contenido 5</td>
-                </tr>
-            </tbody>
-            <tfoot class="table-secondary">
-                <tr>
-                    <td>Footer 1</td>
-                    <td>Footer 2</td>
-                    <td>Footer 3</td>
-                    <td>Footer 4</td>
-                    <td>Footer 5</td>
-                </tr>
-            </tfoot>
-        </table>
+    <div class="container">
+        <h2>Alerta</h2>
+        <div class="alert alert-danger alert-dismissible fade show">
+            Tiempo de espera agotado
+            <button class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+        </div>
+        <p class="alert alert-success">Alerta success <a href="#" class="alert-link">Enlace</a></p>
     </div>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis quo ipsam ullam. Ullam, doloremque molestiae soluta libero non aliquam assumenda placeat voluptatum obcaecati accusamus? Perspiciatis enim quos minus provident fugiat.</p>
-
 
 
     <?php include_once('layout/scripts.template.php'); ?>
