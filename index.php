@@ -21,19 +21,24 @@
 </head>
 
 <body>
-    <!-- BADGES -->
+    <!-- BREADCRUMBS -->
     <div class="container">
         <div class="row row-cols-1">
-            <h1 class="text-center">
-                Badges
-            </h1>
-            <h2>Relleno</h2>
-            <p>Texto <span class="badge rounded-pill bg-success">Secondary</span></p>
-
+            <h1 class="text-center">BREADCRUMBS</h1>
+            <nav>
+                <ol class="breadcrumb">
+                    <li class="breadcrumb-item">
+                        <a href="" class=" text-decoration-none">Inicio</a>
+                    </li>
+                    <li class="breadcrumb-item">
+                        <a href="" class=" text-decoration-none">Libreria</a>
+                    </li>
+                    <li class="breadcrumb-item active" aria-current="page">
+                        Informacion
+                    </li>
+                </ol>
+            </nav>
         </div>
-        <button class="col col-auto btn btn-primary rounded-pill">
-            Notificaciones <span class="badge  bg-light text-dark">4</span>
-        </button>
     </div>
     <?php include_once('layout/scripts.template.php'); ?>
 
