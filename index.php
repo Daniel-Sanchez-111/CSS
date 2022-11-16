@@ -21,13 +21,16 @@
 </head>
 
 <body>
+    <!-- BOTONES -->
     <div class="container">
-        <h2>Alerta</h2>
-        <div class="alert alert-danger alert-dismissible fade show">
-            Tiempo de espera agotado
-            <button class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+        <a href="" class="btn btn-primary btn-lg active" aria-pressed="true">Boton de enlace grande</a>
+        <button class="btn btn-dark btn-sm" data-bs-toggle="button" aria-pressed="false">Boton con borde pequeño</button>
+        <a href="" class="btn btn-primary disabled" aria-disabled="true">Boton de enlace desactivado</a>
+        
+        <div class="d-grid gap-2">
+            <input type="submit" class="btn btn-success">
         </div>
-        <p class="alert alert-success">Alerta success <a href="#" class="alert-link">Enlace</a></p>
+
     </div>
 
 
