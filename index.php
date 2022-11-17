@@ -16,24 +16,59 @@
         .flex-item {
             width: 300px;
         }
+
+        .btn-block{
+            display: block;
+            width: 100%;
+        }
     </style>
 
 </head>
 
 <body>
-    <!-- Grupo de tarjetas -->
+    <!-- Collapse -->
     <div class="container">
         <div class="row row-cols-1">
-            <h1>Tarjetas</h1>
-            <!-- Boton -->
-            <button class="btn btn-primary" data-bs-toggle="collapse" aria-expanded="false" aria-controls="contenido1" data-bs-target="#contenido1">
-                Collapse button
-            </button>
+            <div class="accordion col-4" id="accordion1">
+                <div class="card">
+                    <div class="card-header" id="id1">
+                        <button class="btn btn-block collapsed text-start" data-bs-toggle="collapse" data-bs-target="#contenido1" aria-expanded="true" aria-controls="contenido1">
+                            Boton 1
+                        </button>
+                    </div>
 
-            <!-- Contenido -->
-            <div class="collapse" id="contenido1">
-                <div class="card card-body">
-                    Contenido a mostrar
+                    <div class="collapse" id="contenido1" data-bs-parent="#accordion1" aria-labelledby="id1">
+                        <div class="card-body">
+                            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque, quas.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-header" id="id2">
+                        <button class="btn btn-block collapsed text-start" data-bs-toggle="collapse" data-bs-target="#contenido2" aria-expanded="false" aria-controls="contenido1">
+                            Boton 1
+                        </button>
+                    </div>
+
+                    <div class="collapse" id="contenido2" data-bs-parent="#accordion1" aria-labelledby="id2">
+                        <div class="card-body">
+                            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque, quas.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-header" id="id3">
+                        <button class="btn btn-block collapsed text-start" data-bs-toggle="collapse" data-bs-target="#contenido3" aria-expanded="false" aria-controls="contenido3">
+                            Boton 1
+                        </button>
+                    </div>
+
+                    <div class="collapse" id="contenido3" data-bs-parent="#accordion1" aria-labelledby="id3">
+                        <div class="card-body">
+                            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque, quas.</p>
+                        </div>
+                    </div>
+
                 </div>
             </div>
         </div>
