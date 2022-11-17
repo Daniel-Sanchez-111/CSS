@@ -25,78 +25,16 @@
     <div class="container">
         <div class="row row-cols-1">
             <h1>Tarjetas</h1>
-            <div class="row row-cols-3 row-cols-auto">
+            <!-- Boton -->
+            <button class="btn btn-primary" data-bs-toggle="collapse" aria-expanded="false" aria-controls="contenido1" data-bs-target="#contenido1">
+                Collapse button
+            </button>
 
-                <div class="col mt-3">
-                    <div class="card border-success">
-                        <div class="card-body ">
-                            <h2 class="card-title">Titulo</h2>
-                            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos, laudantium.</p>
-
-                        </div>
-                    </div>
+            <!-- Contenido -->
+            <div class="collapse" id="contenido1">
+                <div class="card card-body">
+                    Contenido a mostrar
                 </div>
-
-                <div class="col mt-3">
-                    <div class="card border-success">
-                        <div class="card-body ">
-                            <h2 class="card-title">Titulo</h2>
-                            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos, laudantium.</p>
-
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col mt-3">
-                    <div class="card border-success">
-                        <div class="card-body ">
-                            <h2 class="card-title">Titulo</h2>
-                            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos, laudantium.</p>
-
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col mt-3">
-                    <div class="card border-success">
-                        <div class="card-body ">
-                            <h2 class="card-title">Titulo</h2>
-                            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos, laudantium.</p>
-
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col mt-3">
-                    <div class="card border-success">
-                        <div class="card-body ">
-                            <h2 class="card-title">Titulo</h2>
-                            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos, laudantium.</p>
-
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col mt-3">
-                    <div class="card border-success">
-                        <div class="card-body ">
-                            <h2 class="card-title">Titulo</h2>
-                            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos, laudantium.</p>
-
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col mt-3">
-                    <div class="card border-success">
-                        <div class="card-body ">
-                            <h2 class="card-title">Titulo</h2>
-                            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos, laudantium.</p>
-
-                        </div>
-                    </div>
-                </div>
-
             </div>
         </div>
     </div>
