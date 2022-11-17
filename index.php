@@ -21,30 +21,83 @@
 </head>
 
 <body>
-    <!-- PAGINACION -->
+    <!-- Grupo de tarjetas -->
     <div class="container">
         <div class="row row-cols-1">
-            <h1>Paginacion</h1>
-            <nav>
-                <ul class="pagination pagination-lg justify-content-center">
-                    <li class="page-item disabled" disabled><a href="" class="page-link" aria-disabled>
-                            <span aria-hidden="true">&laquo</span>
-                        </a>
-                    </li>
-                    <li class="page-item active"><a href="" class="page-link">
-                            1
-                        </a>
-                    </li>
-                    <li class="page-item"><a href="" class="page-link">
-                            2
-                        </a>
-                    </li>
-                    <li class="page-item"><a href="" class="page-link">
-                            <span aria-hidden="true">&raquo</span>
-                        </a>
-                    </li>
-                </ul>
-            </nav>
+            <h1>Tarjetas</h1>
+            <div class="row row-cols-3 row-cols-auto">
+
+                <div class="col mt-3">
+                    <div class="card border-success">
+                        <div class="card-body ">
+                            <h2 class="card-title">Titulo</h2>
+                            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos, laudantium.</p>
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col mt-3">
+                    <div class="card border-success">
+                        <div class="card-body ">
+                            <h2 class="card-title">Titulo</h2>
+                            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos, laudantium.</p>
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col mt-3">
+                    <div class="card border-success">
+                        <div class="card-body ">
+                            <h2 class="card-title">Titulo</h2>
+                            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos, laudantium.</p>
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col mt-3">
+                    <div class="card border-success">
+                        <div class="card-body ">
+                            <h2 class="card-title">Titulo</h2>
+                            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos, laudantium.</p>
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col mt-3">
+                    <div class="card border-success">
+                        <div class="card-body ">
+                            <h2 class="card-title">Titulo</h2>
+                            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos, laudantium.</p>
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col mt-3">
+                    <div class="card border-success">
+                        <div class="card-body ">
+                            <h2 class="card-title">Titulo</h2>
+                            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos, laudantium.</p>
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col mt-3">
+                    <div class="card border-success">
+                        <div class="card-body ">
+                            <h2 class="card-title">Titulo</h2>
+                            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos, laudantium.</p>
+
+                        </div>
+                    </div>
+                </div>
+
+            </div>
         </div>
     </div>
     <?php include_once('layout/scripts.template.php'); ?>
