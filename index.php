@@ -17,7 +17,7 @@
             width: 300px;
         }
 
-        .btn-block{
+        .btn-block {
             display: block;
             width: 100%;
         }
@@ -26,51 +26,16 @@
 </head>
 
 <body>
-    <!-- Collapse -->
+    <!-- Forms -->
     <div class="container">
-        <div class="row row-cols-1">
-            <div class="accordion col-4" id="accordion1">
-                <div class="card">
-                    <div class="card-header" id="id1">
-                        <button class="btn btn-block collapsed text-start" data-bs-toggle="collapse" data-bs-target="#contenido1" aria-expanded="true" aria-controls="contenido1">
-                            Boton 1
-                        </button>
-                    </div>
-
-                    <div class="collapse" id="contenido1" data-bs-parent="#accordion1" aria-labelledby="id1">
-                        <div class="card-body">
-                            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque, quas.</p>
-                        </div>
-                    </div>
+        <div class="row justify-content-center">
+            <form action="" method="POST" class="col-4">
+                <div class="form-group">
+                    <label for="" class=" form-label">Name</label>
+                    <input type="text" name="name" value="" class="form-control form-control-sm">
                 </div>
-                <div class="card">
-                    <div class="card-header" id="id2">
-                        <button class="btn btn-block collapsed text-start" data-bs-toggle="collapse" data-bs-target="#contenido2" aria-expanded="false" aria-controls="contenido1">
-                            Boton 1
-                        </button>
-                    </div>
+            </form>
 
-                    <div class="collapse" id="contenido2" data-bs-parent="#accordion1" aria-labelledby="id2">
-                        <div class="card-body">
-                            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque, quas.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="card">
-                    <div class="card-header" id="id3">
-                        <button class="btn btn-block collapsed text-start" data-bs-toggle="collapse" data-bs-target="#contenido3" aria-expanded="false" aria-controls="contenido3">
-                            Boton 1
-                        </button>
-                    </div>
-
-                    <div class="collapse" id="contenido3" data-bs-parent="#accordion1" aria-labelledby="id3">
-                        <div class="card-body">
-                            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque, quas.</p>
-                        </div>
-                    </div>
-
-                </div>
-            </div>
         </div>
     </div>
     <?php include_once('layout/scripts.template.php'); ?>
