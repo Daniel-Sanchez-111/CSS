@@ -28,13 +28,32 @@
 <body>
     <!-- Forms -->
     <div class="container">
-        <div class="row justify-content-center">
-            <form action="" method="POST" class="col-4">
-                <div class="form-group">
-                    <label for="" class=" form-label">Name</label>
-                    <input type="text" name="name" value="" class="form-control form-control-sm">
+        <div class="row">
+            <div class="col-4">
+                <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#contenido-modal">
+                    Abrir modal
+                </button>
+
+                <!-- Modal content -->
+                <div class="modal fade" id="contenido-modal" tabindex="-1" data-bs-backdrop="static">
+                    <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-lg">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h2 class="modal-title">Titulo del modal</h2>
+                                <button class="btn-close" data-bs-dismiss="modal"></button>
+                            </div>
+                            <div class="modal-body">
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto voluptate unde cum magni ea officia ipsam explicabo, sequi quia excepturi placeat sapiente deserunt maiores blanditiis suscipit ab ducimus saepe vero similique repellat. Id laudantium repellat cum aliquid. Officia iste sequi in dolorum doloribus, cumque sapiente culpa distinctio accusantium, modi ratione explicabo minima praesentium sed eveniet fugit? Doloribus aspernatur doloremque exercitationem, suscipit asperiores eligendi quo deleniti inventore accusantium ipsum numquam, distinctio sequi repellat explicabo rem incidunt excepturi, animi nulla adipisci iusto quibusdam ipsam est? Neque modi tempora sed eveniet accusantium, aspernatur reiciendis ullam consectetur nisi quisquam dolore placeat est error expedita.</p>
+                            </div>
+                            <div class="modal-footer">
+                                <button class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                                <button class="btn btn-primary">Guardar</button>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-            </form>
+            </div>
+
 
         </div>
     </div>
