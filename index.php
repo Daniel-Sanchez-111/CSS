@@ -26,34 +26,45 @@
 </head>
 
 <body>
-    <!-- Forms -->
+    <!-- Navegacion -->
     <div class="container">
         <div class="row">
-            <div class="col-4">
-                <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#contenido-modal">
-                    Abrir modal
-                </button>
 
-                <!-- Modal content -->
-                <div class="modal fade" id="contenido-modal" tabindex="-1" data-bs-backdrop="static">
-                    <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-lg">
-                        <div class="modal-content">
-                            <div class="modal-header">
-                                <h2 class="modal-title">Titulo del modal</h2>
-                                <button class="btn-close" data-bs-dismiss="modal"></button>
-                            </div>
-                            <div class="modal-body">
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto voluptate unde cum magni ea officia ipsam explicabo, sequi quia excepturi placeat sapiente deserunt maiores blanditiis suscipit ab ducimus saepe vero similique repellat. Id laudantium repellat cum aliquid. Officia iste sequi in dolorum doloribus, cumque sapiente culpa distinctio accusantium, modi ratione explicabo minima praesentium sed eveniet fugit? Doloribus aspernatur doloremque exercitationem, suscipit asperiores eligendi quo deleniti inventore accusantium ipsum numquam, distinctio sequi repellat explicabo rem incidunt excepturi, animi nulla adipisci iusto quibusdam ipsam est? Neque modi tempora sed eveniet accusantium, aspernatur reiciendis ullam consectetur nisi quisquam dolore placeat est error expedita.</p>
-                            </div>
-                            <div class="modal-footer">
-                                <button class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
-                                <button class="btn btn-primary">Guardar</button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
+            <!-- Navegacion con UL -->
+            <ul class="nav">
+                <li class="nav-item">
+                    <a href="#" class="nav-link">
+                        Link 1
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link">
+                        Link 2
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link">
+                        Link 3
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link">
+                        Link 4
+                    </a>
+                </li>
+            </ul>
+            <!-- Navegacion con NAV -->
+            <nav class="nav nav-tabs" id="nav1" role="tablist">
 
+                <a href="#contenido1" class="nav-link active" id="link1" data-bs-toggle="tab" role="tab" aria-controls="contenido1" aria-selected="true">Link 1</a>
+
+                <a href="#contenido2" class="nav-link" id="link2" data-bs-toggle="tab" role="tab" aria-controls="contenido2" aria-selected="false">Link 2</a>
+
+                <a href="#contenido3" class="nav-link" id="link3" data-bs-toggle="tab" role="tab" aria-controls="contenido3" aria-selected="false">Link 3</a>
+
+                <a href="#contenido4" class="nav-link" id="link4" data-bs-toggle="tab" role="tab" aria-controls="contenido4" aria-selected="false">Link 4</a>
+
+            </nav>
 
         </div>
     </div>
